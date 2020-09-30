@@ -4,10 +4,10 @@ body {
 
 .vscode-body {
     box-sizing: border-box;
-    min-width: 200px;
-    max-width: 980px;
+    min-width: 25ex;
+    max-width: 122.5ex;
     margin: 0 auto;
-    padding: 40px;
+    padding: 5ex;
     border: 1px solid transparent;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .vscode-body code > div {
-    background: none
+    background: none;
 }
 
 .vscode-body table th,
@@ -38,15 +38,15 @@ body {
 }
 
 .vscode-body.showEditorSelection .code-active-line:before {
-	border-left: 3px solid rgba(0, 0, 0, 0.15);
+    border-left: 3px solid rgba(0, 0, 0, 0.15);
 }
 
 .vscode-body.showEditorSelection .code-line:hover:before {
-	border-left: 3px solid rgba(0, 0, 0, 0.40);
+    border-left: 3px solid rgba(0, 0, 0, 0.4);
 }
 
 .vscode-body.showEditorSelection .code-line .code-line:hover:before {
-	border-left: none;
+    border-left: none;
 }
 
 .vscode-body p,
@@ -56,8 +56,8 @@ body {
 .vscode-body dl,
 .vscode-body table,
 .vscode-body pre {
-  margin-top: 16px;
-  margin-bottom: 16px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 body.vscode-body::-webkit-scrollbar {

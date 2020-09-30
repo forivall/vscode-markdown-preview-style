@@ -7,8 +7,16 @@ const inputPath = path.join('node_modules', 'github-markdown-css', 'github-markd
 const fullPath = path.join(__dirname, '..', inputPath);
 
 
+/** @param {string} input */
 function updateGithubMarkdownCss(input) {
-    return `/* Generated from '${inputPath}' */\n`+ input.replace(/\.markdown-body/g, '.vscode-body');
+    return (
+        `/* Generated from '${inputPath}' */\n` +
+        input
+            .replace(/\.markdown-body/g, ".vscode-body")
+            .replace(/font-size: (\d+)px(\s*(?:!important)?;?)/g, (match, px, semi) =>
+                px === "16" ? `/* font-size: 1em${semi} */` : `font-size: ${Number(px) / 16}em${semi}`
+            )
+    );
 } 
 
 

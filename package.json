@@ -1,6 +1,6 @@
 {
-  "name": "markdown-preview-github-styles",
-  "version": "0.1.6",
+  "name": "markdown-preview-github-styles-updated",
+  "version": "0.1.7",
   "displayName": "Markdown Preview Github Styling",
   "description": "Changes VS Code's built-in markdown preview to match Github's style",
   "keywords": [
@@ -14,10 +14,10 @@
   "publisher": "bierner",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/mjbvz/vscode-github-markdown-preview-style.git"
+    "url": "https://github.com/forivall/vscode-markdown-preview-style.git"
   },
   "bugs": {
-    "url": "https://github.com/mjbvz/vscode-github-markdown-preview-style/issues"
+    "url": "https://github.com/forivall/vscode-markdown-preview-style/issues"
   },
   "engines": {
     "vscode": "^1.15.0"
